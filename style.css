@@ -6,12 +6,43 @@
 }
 
 body {
+   margin: 0;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  transition: background 0.5s ease;
   min-height: 100vh;
   background: linear-gradient(135deg, #74ebd5, #9face6);
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+/* Default */
+.default {
+  background: linear-gradient(to right, #dfe9f3, #ffffff);
+}
+
+/* Weather-based backgrounds */
+.clear {
+  background: linear-gradient(to right, #fceabb, #f8b500);
+}
+
+.clouds {
+  background: linear-gradient(to right, #bdc3c7, #2c3e50);
+}
+
+.rain {
+  background: linear-gradient(to right, #4e54c8, #8f94fb);
+}
+
+.snow {
+  background: linear-gradient(to right, #e6dada, #274046);
+}
+
+.thunderstorm {
+  background: linear-gradient(to right, #232526, #414345);
+}
+
 
 /* Main card */
 .weather-app {
