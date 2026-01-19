@@ -17,11 +17,11 @@ Weather Dashboard is a **responsive, interactive web application** that allows u
 
 ---
 
-## **Live Demo**
+## **Live Demo**s
 
 Check out the live project here:
-[🌐 Weather Dashboard Live](#)
-*(Replace `#` with your Netlify/Live URL)*
+[🌐 Weather Dashboard Live](https://grand-pasca-043903.netlify.app)
+
 
 ---
 
